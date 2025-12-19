@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Aryan Store | Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Aryan Store</h1>
+  <nav>
+    <a href="shop.html">Shop</a>
+    <a href="orders.html">Orders</a>
+    <span id="cartCount">Cart: 0</span>
+    <a href="login.html">Logout</a>
+  </nav>
+</header>
+
+<div class="products" id="products"></div>
+
+<div class="cart">
+  <h3>Your Cart</h3>
+  <div id="cartItems"></div>
+  <h4>Total: ₹<span id="total">0</span></h4>
+  <button onclick="checkout()">Pay Now</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
