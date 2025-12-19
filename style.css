@@ -1,0 +1,99 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI'}
+body{background:#f4f6fb;color:#333}
+
+header{
+  background:#fff;
+  padding:15px 30px;
+  display:flex;
+  justify-content:space-between;
+  box-shadow:0 2px 8px rgba(0,0,0,.1)
+}
+
+nav a, nav span{
+  margin-left:15px;
+  text-decoration:none;
+  color:#2563eb;
+  font-weight:600
+}
+
+.center{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height:100vh
+}
+
+.login-box{
+  background:#fff;
+  padding:30px;
+  width:300px;
+  border-radius:10px;
+  box-shadow:0 6px 20px rgba(0,0,0,.15);
+  text-align:center
+}
+
+.login-box input{
+  width:100%;
+  margin:10px 0;
+  padding:10px
+}
+
+button{
+  background:#2563eb;
+  color:#fff;
+  border:none;
+  padding:8px 15px;
+  cursor:pointer;
+  border-radius:6px
+}
+
+.products{
+  padding:30px;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:20px
+}
+
+.card{
+  background:#fff;
+  padding:15px;
+  border-radius:10px;
+  box-shadow:0 4px 12px rgba(0,0,0,.1);
+  text-align:center
+}
+
+.card img{
+  width:100%;
+  height:150px;
+  object-fit:cover;
+  border-radius:8px
+}
+
+.price{color:#2563eb;font-weight:bold;margin:5px 0}
+
+.cart{
+  position:fixed;
+  right:20px;
+  bottom:20px;
+  background:#fff;
+  padding:15px;
+  width:260px;
+  border-radius:10px;
+  box-shadow:0 6px 20px rgba(0,0,0,.2)
+}
+
+.cart-item{
+  display:flex;
+  justify-content:space-between;
+  font-size:14px;
+  margin:5px 0
+}
+
+.orders{
+  padding:30px;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:20px
+}
+
+.hint{font-size:12px;color:#777}
